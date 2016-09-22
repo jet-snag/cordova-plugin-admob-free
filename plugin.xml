@@ -58,6 +58,47 @@
         </config-file>
         <header-file src="src/ios/CDVAdMob.h" />
         <source-file src="src/ios/CDVAdMob.m" />
+        
+        <!-- dependency for inmobi adapter -->
+        <header-file src="src/ios/InMobiAdapter/GADInMobiExtras.h"/>
+        <header-file src="src/ios/InMobiAdapter/GADMAdapterInMobi.h"/>
+        <source-file src="src/ios/InMobiAdapter/libAdapterInMobi.a" framework="true"/>
+        
+        <!-- dependency for inmobi ios sdk -->
+        <header-file src="src/ios/InMobiSDK/IMBanner.h"/>
+        <header-file src="src/ios/InMobiSDK/IMBannerDelegate.h"/>
+        <header-file src="src/ios/InMobiSDK/IMCommonConstants.h"/>
+        <header-file src="src/ios/InMobiSDK/IMCustomNative.h"/>
+        <header-file src="src/ios/InMobiSDK/IMInterstitial.h"/>
+        <header-file src="src/ios/InMobiSDK/IMInterstitialDelegate.h"/>
+        <header-file src="src/ios/InMobiSDK/IMNative.h"/>
+        <header-file src="src/ios/InMobiSDK/IMNativeDelegate.h"/>
+        <header-file src="src/ios/InMobiSDK/IMNativeStrands.h"/>
+        <header-file src="src/ios/InMobiSDK/IMNativeStrandsDelegate.h"/>
+        <header-file src="src/ios/InMobiSDK/IMRequestStatus.h"/>
+        <header-file src="src/ios/InMobiSDK/IMSdk.h"/>
+        <header-file src="src/ios/InMobiSDK/IMStrandPosition.h"/>
+        <header-file src="src/ios/InMobiSDK/IMStrandTableViewAdapter.h"/>
+        <header-file src="src/ios/InMobiSDK/IMStrandTableViewAdapterDelegate.h"/>
+        <source-file src="src/ios/InMobiSDK/libInMobi-5.3.1.a" framework="true"/>
+        
+        <!-- dependency for standard ios sdk -->
+        <framework src="AdSupport.framework"/>
+        <framework src="AudioToolbox.framework" />
+        <framework src="AVFoundation.framework" />
+        <framework src="CoreLocation.framework" />
+        <framework src="CoreTelephony.framework" />
+        <framework src="EventKit.framework" />
+        <framework src="EventKitUI.framework" />
+        <framework src="MediaPlayer.framework" />
+        <framework src="MessageUI.framework" />
+        <framework src="Security.framework" />
+        <framework src="Social.framework"/>
+        <framework src="StoreKit.framework" />
+        <framework src="SystemConfiguration.framework" />
+        <framework src="libsqlite3.0.dylib" />
+        <framework src="libz.dylib" />
+        
     </platform>
 
     <!-- Windows Phone 8 -->
