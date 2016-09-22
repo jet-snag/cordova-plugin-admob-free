@@ -5,14 +5,14 @@
     <description>Robust, reliable and easy to use Cordova Admob plugin for Android, iOS and Windows
         phone. Allows preloading and automatic loading of interstitials and banners plus more.
     </description>
-    <author>Ratson</author>
+    <author>jet-snag</author>
     <license>MIT</license>
     <keywords>admob, google, cordova-ios, cordova-android, ecosystem:cordova, android, ios, windows,
         money, monetization, iad, services, play, win, earn, publicity, advertisment, advertising,
         ads, ad, eclipse, android studio
     </keywords>
-    <repo>https://github.com/ratson/cordova-plugin-admob-free.git</repo>
-    <issue>https://github.com/ratson/cordova-plugin-admob-free/issues</issue>
+    <repo>https://github.com/jet-snag/cordova-plugin-admob-free.git</repo>
+    <issue>https://github.com/jet-snag/cordova-plugin-admob-free/issues</issue>
 
     <engines>
         <engine name="cordova" version=">=3.0" />
