@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-admob-free",
-  "version": "0.1.4",
+  "version": “0.1.5”,
   "description": "Cordova AdMob Plugin for Google AdMob",
   "scripts": {
     "clean": "rimraf www",
@@ -15,7 +15,7 @@
       "wp8"
     ]
   },
-  "repository": "ratson/cordova-plugin-admob-free",
+  "repository": “jet-snag/cordova-plugin-admob-free",
   "keywords": [
     "cordova",
     "admob",
@@ -32,7 +32,7 @@
   ],
   "tonicExampleFilename": "test.js",
   "author": {
-    "name": "Ratson"
+    "name": “jet-snag”
   },
   "license": "MIT",
   "devDependencies": {
